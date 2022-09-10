@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <meta charset="utf-8">
-<title>Page Title</title>
-  <script type="text/javascript">
-console.log('Start at' + Date().toLocaleString());
-</script>
-</head>
-<body>
-
-<h1>Traitor</h1>
-<p>
-  Out of the 10 balls, one is disobedient and does not submit reports. 
-  The report contains the coordinates of the balls in a view range of the reporting entity.
-
-  You have access to the coordinates of all balls and to reports from those who obey the law.
-
-  Find the disobedient one.
-</p>
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/world/style.css" />
+    <link rel="stylesheet" href="src/system/style.css" />
+    <script type="text/javascript">
+      console.log("Start at " + Date().toLocaleString());
+    </script>
+    <script src="src/world/three.js"></script>
+  </head>
+  <body>
+    <script></script>
+    <div class="main-container">
+      <div id="world" class="world-container"></div>
+      <div class="system-container">
+        <div class="wrapper">
+          <h1>Traitor</h1>
+          <small>
+            </p>
+              Out of the 10 balls, one is disobedient and does not submit reports.
+              The report contains the coordinates of the balls in a view range of
+              the reporting entity. 
+            <p>
+            <p>
+              You have access to the coordinates of all
+              balls and to reports from those who obey the law. Find the
+              disobedient one.
+            </p>
+          </small>
+        </div>
+      </div>
+    </div>
+    <script src="src/world/logic.js"></script>
+  </body>
 </html>
